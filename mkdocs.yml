@@ -21,7 +21,7 @@ theme:
     text: Segoe UI
   palette:
     scheme: default
-    primary: deep orange
+    primary: deep purple
     link: blue
   features:
     - navigation.expand
