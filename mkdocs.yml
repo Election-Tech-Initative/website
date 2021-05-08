@@ -8,21 +8,21 @@ site_name: LFO Reform Project
 docs_dir: "docs"
 repo_url: https://github.com/LFO-Reform-Project/website
 nav: 
-  
+
 plugins:
   - search
   - mermaid2
 theme:
   name: material
   custom_dir: overrides
-  favicon: images/favicon.ico
+#  favicon: images/favicon.ico
 #  logo: 
   font:
     text: Segoe UI
   palette:
     scheme: default
-    accent: indigo
-    link: indigo
+    primary: deep orange
+    link: blue
   features:
     - navigation.expand
     - navigation.instant
@@ -47,5 +47,3 @@ extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-extra_css:
-  - stylesheets/extra.css
