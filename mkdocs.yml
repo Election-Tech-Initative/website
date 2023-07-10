@@ -1,4 +1,4 @@
-site_name: LFO Reform Project
+site_name: Election Tech Initiative
 # site_description:
 # site_author:
 # google_analytics:
@@ -6,28 +6,38 @@ site_name: LFO Reform Project
 # remote_name: for gh-deploy to Github Pages
 # copyright:
 docs_dir: "docs"
-repo_url: https://github.com/LFO-Reform-Project/website
-nav: 
+repo_url: https://github.com/Election-Tech-Initiative/website
+nav:
+  - Overview:
+    - What is the Election Technology Initiative?: index.md
+
 
 plugins:
   - search
-  - mermaid2
+  - mermaid2:
+      arguments:
+        securityLevel: "loose"
+        htmlLabels: true
+  - redirects:
+      redirect_maps:
+        "hacktoberfest.md": "contribute/index.md"
 theme:
   name: material
   custom_dir: overrides
-#  favicon: images/favicon.ico
-#  logo: 
+  favicon: images/favicon.ico
+  logo: images/csg-white-logo.svg
   font:
     text: Segoe UI
   palette:
     scheme: default
-    primary: deep purple
-    link: blue
+    accent: indigo
+    link: indigo
   features:
-    - navigation.expand
     - navigation.instant
     - navigation.tabs
 markdown_extensions:
+  - abbr
+  - pymdownx.snippets
   - admonition
   - footnotes
   - meta
@@ -44,6 +54,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 extra_javascript:
+  - javascripts/analytics.js
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
