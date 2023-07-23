@@ -10,17 +10,14 @@ repo_url: https://github.com/Election-Tech-Initiative/website
 nav:
   - Overview:
     - What is the Election Technology Initiative?: index.md
-
-
+  - ElectionGuard: http://electionguard.vote
+  - Accessibility: accessibility.md
 plugins:
   - search
   - mermaid2:
       arguments:
         securityLevel: "loose"
         htmlLabels: true
-  - redirects:
-      redirect_maps:
-        "hacktoberfest.md": "contribute/index.md"
 theme:
   name: material
   custom_dir: overrides
