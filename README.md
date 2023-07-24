@@ -11,7 +11,7 @@ This library and all linked ElectionGuard projects are licensed under the MIT li
 
 ## 🛡 Security Issues Reporting
 
-We encourage the developer and security community to conduct research, report issues, and suggest improvements on this code base. However, unlike performance or feature bugs, please do **not** report security vulnerabilities in public Github comments. Each repository has a SECURITY file with instructions on responsibly reporting security vulnerabilities under Microsoft's CVD process.
+We encourage the developer and security community to conduct research, report issues, and suggest improvements on this code base. However, unlike performance or feature bugs, please do **not** report security vulnerabilities in public Github comments. 
 
 ## 🤝 Contributing
 
@@ -22,7 +22,7 @@ Help defend democracy and **[contribute to the project][]**.
 
 ## ❓ Questions
 
-ElectionGuard would love for you to ask questions out in the open using Github Issues. If you really want to email the ElectionGuard team, reach out at info@election.tech.
+The Election Tech Initiative would love for you to ask questions out in the open using Github Issues. If you really want to email the Election Tech Initiative team, reach out at info@election.tech.
 
 ## 🎉 Thanks!
 
