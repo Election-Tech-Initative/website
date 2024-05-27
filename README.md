@@ -8,6 +8,30 @@ The Election Technology Initiative develops technologies for election administra
 
 This library and all linked ElectionGuard projects are licensed under the MIT license. There is no fee for using ElectionGuard.
 
+## Setup
+
+**NB:** This repository will be in a state of flux as the website will be transitioning to a new URL.
+
+This repo uses pipenv for package and environment management. Disregard the `requirements.txt` file.
+
+1. Install packages
+
+```sh
+pipenv install
+```
+
+1. Run `make build` command from within the virtualenv
+
+```sh
+pipenv run make build
+```
+
+1. Serve the site
+
+```sh
+pipenv run make serve
+```
+
 
 ## 🛡 Security Issues Reporting
 

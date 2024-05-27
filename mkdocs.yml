@@ -18,6 +18,11 @@ plugins:
       arguments:
         securityLevel: "loose"
         htmlLabels: true
+  - redirects:
+      redirect_maps:
+        'index.md': 'https://www.csg.org/2023/07/26/csg-and-the-turnout-launch-the-election-technology-initiative-with-support-from-microsoft-working-to-increase-voter-confidence-in-elections/'
+        'about.md': 'https://www.csg.org/2023/07/26/csg-and-the-turnout-launch-the-election-technology-initiative-with-support-from-microsoft-working-to-increase-voter-confidence-in-elections/'
+        'accessibility.md': 'https://www.csg.org/2023/07/26/csg-and-the-turnout-launch-the-election-technology-initiative-with-support-from-microsoft-working-to-increase-voter-confidence-in-elections/'
 theme:
   name: material
   custom_dir: overrides
@@ -45,6 +50,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:material.extensions.emoji.twemoji
+#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
